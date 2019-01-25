@@ -1,0 +1,936 @@
+12-06 11:08:58 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:08:59 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:08:59 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:09:38 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "SALES_DATA" not found; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.SALES_DATA [42102-131]
+12-06 11:09:39 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "SALES_DATA" not found; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.SALES_DATA [42102-131]
+12-06 11:10:18 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Column "DESCRIPTION" not found; SQL statement:
+SELECT description, code, category, price FROM INFORMATION_SCHEMA.CATALOGS WHERE  ( ( description = ?  ) )  AND  ( ( code = ?  ) )  AND  ( ( category = ?  ) )  AND  ( ( price = ?  ) )  [42122-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:126)
+	at org.h2.command.dml.Select.prepare(Select.java:714)
+	at org.h2.command.Parser.prepareCommand(Parser.java:224)
+	at org.h2.engine.Session.prepareLocal(Session.java:420)
+	at org.h2.engine.Session.prepareCommand(Session.java:381)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1070)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:233)
+	at org.pentaho.di.trans.steps.insertupdate.InsertUpdate.setLookup(InsertUpdate.java:393)
+	at org.pentaho.di.trans.steps.insertupdate.InsertUpdate.processRow(InsertUpdate.java:265)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 11:10:39 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Column "DESCRIPTION" not found; SQL statement:
+SELECT description, code, category, price FROM INFORMATION_SCHEMA.CATALOGS WHERE  ( ( description = ?  ) )  AND  ( ( code = ?  ) )  AND  ( ( category = ?  ) )  AND  ( ( price = ?  ) )  [42122-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:126)
+	at org.h2.command.dml.Select.prepare(Select.java:714)
+	at org.h2.command.Parser.prepareCommand(Parser.java:224)
+	at org.h2.engine.Session.prepareLocal(Session.java:420)
+	at org.h2.engine.Session.prepareCommand(Session.java:381)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1070)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:233)
+	at org.pentaho.di.trans.steps.insertupdate.InsertUpdate.setLookup(InsertUpdate.java:393)
+	at org.pentaho.di.trans.steps.insertupdate.InsertUpdate.processRow(InsertUpdate.java:265)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 11:11:08 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:11:08 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:11:08 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:11:17 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT description, code, category, price FROM "lookup table" WHERE  ( ( description = ?  ) )  AND  ( ( code = ?  ) )  AND  ( ( category = ?  ) )  AND  ( ( price = ?  ) )  [42102-131]
+12-06 11:11:25 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:11:26 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:11:26 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:17:00 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:17:00 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:17:01 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "lookup table" not found; SQL statement:
+SELECT * FROM "lookup table" [42102-131]
+12-06 11:18:15 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "PRODUCTNAME"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE) VALUES ( ?,  ?,  ?) [90006-131]
+12-06 11:20:48 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "PRODUCTLINE"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE, PRODUCTNAME) VALUES ( ?,  ?,  ?,  ?) [90006-131]
+12-06 11:21:34 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "PRODUCTSCALE"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE, PRODUCTNAME, PRODUCTLINE) VALUES ( ?,  ?,  ?,  ?,  ?) [90006-131]
+12-06 11:22:05 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "PRODUCTVENDOR"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE, PRODUCTNAME, PRODUCTLINE, PRODUCTSCALE) VALUES ( ?,  ?,  ?,  ?,  ?,  ?) [90006-131]
+12-06 11:22:40 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "QUANTITYINSTOCK"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE, PRODUCTNAME, PRODUCTLINE, PRODUCTSCALE, PRODUCTVENDOR) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?) [90006-131]
+12-06 11:23:06 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'PRD-XKD' (QUANTITYINSTOCK SMALLINT NOT NULL)"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE, PRODUCTNAME, PRODUCTLINE, PRODUCTSCALE, PRODUCTVENDOR, QUANTITYINSTOCK) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?) -- (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8) [90021-131]
+12-06 11:24:16 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'PRD-OGH' (QUANTITYINSTOCK SMALLINT NOT NULL)"; SQL statement:
+INSERT INTO PRODUCTS (PRODUCTDESCRIPTION, PRODUCTCODE, BUYPRICE, PRODUCTNAME, PRODUCTLINE, PRODUCTSCALE, PRODUCTVENDOR, QUANTITYINSTOCK) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?) -- (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8) [90021-131]
+12-06 11:49:16 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_VERSION" not found; SQL statement:
+SELECT MAJOR_VERSION, MINOR_VERSION, UPGRADE_DATE FROM R_VERSION ORDER BY UPGRADE_DATE DESC [42102-131]
+12-06 11:49:16 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_USER" not found; SQL statement:
+SELECT * FROM R_USER [42102-131]
+12-06 11:49:32 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_USER" not found; SQL statement:
+SELECT 1 FROM R_USER [42102-131]
+12-06 11:49:35 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_REPOSITORY_LOG" not found; SQL statement:
+SELECT 1 FROM R_REPOSITORY_LOG [42102-131]
+12-06 11:49:35 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_VERSION" not found; SQL statement:
+SELECT 1 FROM R_VERSION [42102-131]
+12-06 11:49:35 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DATABASE_TYPE" not found; SQL statement:
+SELECT 1 FROM R_DATABASE_TYPE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DATABASE_CONTYPE" not found; SQL statement:
+SELECT 1 FROM R_DATABASE_CONTYPE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_NOTE" not found; SQL statement:
+SELECT 1 FROM R_NOTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DATABASE_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_DATABASE_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DATABASE_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_DATABASE_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DIRECTORY" not found; SQL statement:
+SELECT 1 FROM R_DIRECTORY [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DIRECTORY" not found; SQL statement:
+SELECT 1 FROM R_DIRECTORY [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANSFORMATION" not found; SQL statement:
+SELECT 1 FROM R_TRANSFORMATION [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANSFORMATION" not found; SQL statement:
+SELECT 1 FROM R_TRANSFORMATION [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_TRANS_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_TRANS_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOB_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_JOB_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOB_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_JOB_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_DEPENDENCY" not found; SQL statement:
+SELECT 1 FROM R_DEPENDENCY [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_PARTITION_SCHEMA" not found; SQL statement:
+SELECT 1 FROM R_PARTITION_SCHEMA [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_PARTITION" not found; SQL statement:
+SELECT 1 FROM R_PARTITION [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_PARTITION_SCHEMA" not found; SQL statement:
+SELECT 1 FROM R_TRANS_PARTITION_SCHEMA [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_CLUSTER" not found; SQL statement:
+SELECT 1 FROM R_CLUSTER [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_SLAVE" not found; SQL statement:
+SELECT 1 FROM R_SLAVE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_CLUSTER_SLAVE" not found; SQL statement:
+SELECT 1 FROM R_CLUSTER_SLAVE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_SLAVE" not found; SQL statement:
+SELECT 1 FROM R_TRANS_SLAVE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_CLUSTER" not found; SQL statement:
+SELECT 1 FROM R_TRANS_CLUSTER [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_HOP" not found; SQL statement:
+SELECT 1 FROM R_TRANS_HOP [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_STEP_CONDITION" not found; SQL statement:
+SELECT 1 FROM R_TRANS_STEP_CONDITION [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_CONDITION" not found; SQL statement:
+SELECT 1 FROM R_CONDITION [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_VALUE" not found; SQL statement:
+SELECT 1 FROM R_VALUE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP_TYPE" not found; SQL statement:
+SELECT 1 FROM R_STEP_TYPE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP" not found; SQL statement:
+SELECT 1 FROM R_STEP [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_STEP_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_STEP_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_STEP_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_STEP_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_STEP_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_STEP_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_NOTE" not found; SQL statement:
+SELECT 1 FROM R_TRANS_NOTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_LOGLEVEL" not found; SQL statement:
+SELECT 1 FROM R_LOGLEVEL [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_LOG" not found; SQL statement:
+SELECT 1 FROM R_LOG [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOB" not found; SQL statement:
+SELECT 1 FROM R_JOB [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_DATABASE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_DATABASE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_TYPE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_TYPE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_COPY" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_COPY [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOBENTRY_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_JOBENTRY_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOB_HOP" not found; SQL statement:
+SELECT 1 FROM R_JOB_HOP [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOB_NOTE" not found; SQL statement:
+SELECT 1 FROM R_JOB_NOTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_TRANS_LOCK" not found; SQL statement:
+SELECT 1 FROM R_TRANS_LOCK [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_JOB_LOCK" not found; SQL statement:
+SELECT 1 FROM R_JOB_LOCK [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_NAMESPACE" not found; SQL statement:
+SELECT 1 FROM R_NAMESPACE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_ELEMENT_TYPE" not found; SQL statement:
+SELECT 1 FROM R_ELEMENT_TYPE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_ELEMENT" not found; SQL statement:
+SELECT 1 FROM R_ELEMENT [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_ELEMENT_ATTRIBUTE" not found; SQL statement:
+SELECT 1 FROM R_ELEMENT_ATTRIBUTE [42102-131]
+12-06 11:49:36 jdbc[3]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "R_USER" not found; SQL statement:
+SELECT 1 FROM R_USER [42102-131]
+12-06 11:49:40 jdbc[4]: SQLException
+org.h2.jdbc.JdbcSQLException: Unknown data type: "BIGSERIAL"; SQL statement:
+CREATE TABLE R_REPOSITORY_LOG
+(
+  ID_REPOSITORY_LOG BIGSERIAL
+, REP_VERSION VARCHAR(255)
+, LOG_DATE TIMESTAMP
+, LOG_USER VARCHAR(255)
+, OPERATION_DESC VARCHAR(2000000)
+) [50004-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.command.Parser.parseColumn(Parser.java:3383)
+	at org.h2.command.Parser.parseColumnForTable(Parser.java:3248)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:4707)
+	at org.h2.command.Parser.parseCreate(Parser.java:3504)
+	at org.h2.command.Parser.parsePrepared(Parser.java:315)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:223)
+	at org.h2.engine.Session.prepareLocal(Session.java:420)
+	at org.h2.engine.Session.prepareCommand(Session.java:381)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1070)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:163)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:151)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1487)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1461)
+	at org.pentaho.di.ui.core.database.dialog.SQLEditor.exec(SQLEditor.java:398)
+	at org.pentaho.di.ui.core.database.dialog.SQLEditor.access$200(SQLEditor.java:81)
+	at org.pentaho.di.ui.core.database.dialog.SQLEditor$7.handleEvent(SQLEditor.java:242)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.repository.kdr.KettleDatabaseRepositoryDialog.open(KettleDatabaseRepositoryDialog.java:324)
+	at org.pentaho.di.ui.repository.kdr.KettleDatabaseRepositoryDialog.open(KettleDatabaseRepositoryDialog.java:75)
+	at org.pentaho.di.ui.repository.RepositoriesHelper.editRepository(RepositoriesHelper.java:155)
+	at org.pentaho.di.ui.repository.controllers.RepositoriesController.editRepository(RepositoriesController.java:284)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.pentaho.ui.xul.impl.AbstractXulDomContainer.invoke(AbstractXulDomContainer.java:313)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:157)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:141)
+	at org.pentaho.ui.xul.swt.tags.SwtButton.access$300(SwtButton.java:43)
+	at org.pentaho.ui.xul.swt.tags.SwtButton$2.mouseUp(SwtButton.java:103)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.pentaho.di.ui.xul.KettleDialog.show(KettleDialog.java:88)
+	at org.pentaho.di.ui.xul.KettleDialog.show(KettleDialog.java:55)
+	at org.pentaho.di.ui.repository.controllers.RepositoriesController.show(RepositoriesController.java:196)
+	at org.pentaho.di.ui.repository.RepositoriesDialog.show(RepositoriesDialog.java:90)
+	at org.pentaho.di.ui.spoon.Spoon.openRepository(Spoon.java:3769)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.pentaho.ui.xul.impl.AbstractXulDomContainer.invoke(AbstractXulDomContainer.java:313)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:157)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:141)
+	at org.pentaho.ui.xul.jface.tags.JfaceMenuitem.access$100(JfaceMenuitem.java:43)
+	at org.pentaho.ui.xul.jface.tags.JfaceMenuitem$1.run(JfaceMenuitem.java:106)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:545)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1356)
+	at org.pentaho.di.ui.spoon.Spoon.waitForDispose(Spoon.java:8104)
+	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:9391)
+	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:669)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.pentaho.commons.launcher.Launcher.main(Launcher.java:92)
+12-06 11:49:43 jdbc[4]: SQLException
+org.h2.jdbc.JdbcSQLException: Unknown data type: "BIGSERIAL"; SQL statement:
+CREATE TABLE R_VERSION
+(
+  ID_VERSION BIGSERIAL
+, MAJOR_VERSION SMALLINT
+, MINOR_VERSION SMALLINT
+, UPGRADE_DATE TIMESTAMP
+, IS_UPGRADE BOOLEAN
+) [50004-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.command.Parser.parseColumn(Parser.java:3383)
+	at org.h2.command.Parser.parseColumnForTable(Parser.java:3248)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:4707)
+	at org.h2.command.Parser.parseCreate(Parser.java:3504)
+	at org.h2.command.Parser.parsePrepared(Parser.java:315)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:223)
+	at org.h2.engine.Session.prepareLocal(Session.java:420)
+	at org.h2.engine.Session.prepareCommand(Session.java:381)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1070)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:163)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:151)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1487)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1461)
+	at org.pentaho.di.ui.core.database.dialog.SQLEditor.exec(SQLEditor.java:398)
+	at org.pentaho.di.ui.core.database.dialog.SQLEditor.access$200(SQLEditor.java:81)
+	at org.pentaho.di.ui.core.database.dialog.SQLEditor$7.handleEvent(SQLEditor.java:242)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.repository.kdr.KettleDatabaseRepositoryDialog.open(KettleDatabaseRepositoryDialog.java:324)
+	at org.pentaho.di.ui.repository.kdr.KettleDatabaseRepositoryDialog.open(KettleDatabaseRepositoryDialog.java:75)
+	at org.pentaho.di.ui.repository.RepositoriesHelper.editRepository(RepositoriesHelper.java:155)
+	at org.pentaho.di.ui.repository.controllers.RepositoriesController.editRepository(RepositoriesController.java:284)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.pentaho.ui.xul.impl.AbstractXulDomContainer.invoke(AbstractXulDomContainer.java:313)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:157)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:141)
+	at org.pentaho.ui.xul.swt.tags.SwtButton.access$300(SwtButton.java:43)
+	at org.pentaho.ui.xul.swt.tags.SwtButton$2.mouseUp(SwtButton.java:103)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.pentaho.di.ui.xul.KettleDialog.show(KettleDialog.java:88)
+	at org.pentaho.di.ui.xul.KettleDialog.show(KettleDialog.java:55)
+	at org.pentaho.di.ui.repository.controllers.RepositoriesController.show(RepositoriesController.java:196)
+	at org.pentaho.di.ui.repository.RepositoriesDialog.show(RepositoriesDialog.java:90)
+	at org.pentaho.di.ui.spoon.Spoon.openRepository(Spoon.java:3769)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.pentaho.ui.xul.impl.AbstractXulDomContainer.invoke(AbstractXulDomContainer.java:313)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:157)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:141)
+	at org.pentaho.ui.xul.jface.tags.JfaceMenuitem.access$100(JfaceMenuitem.java:43)
+	at org.pentaho.ui.xul.jface.tags.JfaceMenuitem$1.run(JfaceMenuitem.java:106)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:545)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1356)
+	at org.pentaho.di.ui.spoon.Spoon.waitForDispose(Spoon.java:8104)
+	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:9391)
+	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:669)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.pentaho.commons.launcher.Launcher.main(Launcher.java:92)
+12-06 12:37:20 jdbc[12]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.CommandList.query(CommandList.java:47)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 12:37:20 jdbc[14]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.CommandList.query(CommandList.java:47)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1727)
+	at org.pentaho.di.ui.spoon.trans.TransPreviewDelegate.capturePreviewData(TransPreviewDelegate.java:442)
+	at org.pentaho.di.ui.spoon.trans.TransGraph$29.run(TransGraph.java:4042)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 12:39:07 jdbc[12]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:58)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:561)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:450)
+	at org.pentaho.di.core.database.Database.connect(Database.java:364)
+	at org.pentaho.di.core.database.Database.connect(Database.java:335)
+	at org.pentaho.di.core.database.Database.connect(Database.java:325)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:258)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 12:42:56 jdbc[22]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 12:42:56 jdbc[24]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1727)
+	at org.pentaho.di.ui.spoon.trans.TransPreviewDelegate.capturePreviewData(TransPreviewDelegate.java:442)
+	at org.pentaho.di.ui.spoon.trans.TransGraph$29.run(TransGraph.java:4042)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:35:26 jdbc[30]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:35:26 jdbc[32]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1727)
+	at org.pentaho.di.ui.spoon.trans.TransPreviewDelegate.capturePreviewData(TransPreviewDelegate.java:442)
+	at org.pentaho.di.ui.spoon.trans.TransGraph$29.run(TransGraph.java:4042)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:35:33 jdbc[30]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:58)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:561)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:450)
+	at org.pentaho.di.core.database.Database.connect(Database.java:364)
+	at org.pentaho.di.core.database.Database.connect(Database.java:335)
+	at org.pentaho.di.core.database.Database.connect(Database.java:325)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:258)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:35:33 jdbc[22]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:58)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:561)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:450)
+	at org.pentaho.di.core.database.Database.connect(Database.java:364)
+	at org.pentaho.di.core.database.Database.connect(Database.java:335)
+	at org.pentaho.di.core.database.Database.connect(Database.java:325)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:258)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:36:03 jdbc[35]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:36:04 jdbc[36]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:36:17 jdbc[38]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:36:17 jdbc[40]: SQLException
+org.h2.jdbc.JdbcSQLException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery [90002-131]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:316)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.command.Prepared.query(Prepared.java:202)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:80)
+	at org.h2.command.Command.executeQuery(Command.java:132)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:96)
+	at org.pentaho.di.core.database.Database.getQueryFieldsFallback(Database.java:2172)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:2116)
+	at org.pentaho.di.core.database.Database.getQueryFields(Database.java:1800)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:259)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1727)
+	at org.pentaho.di.ui.spoon.trans.TransPreviewDelegate.capturePreviewData(TransPreviewDelegate.java:442)
+	at org.pentaho.di.ui.spoon.trans.TransGraph$29.run(TransGraph.java:4042)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:37:30 jdbc[35]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:58)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:561)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:450)
+	at org.pentaho.di.core.database.Database.connect(Database.java:364)
+	at org.pentaho.di.core.database.Database.connect(Database.java:335)
+	at org.pentaho.di.core.database.Database.connect(Database.java:325)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:258)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:37:30 jdbc[36]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:58)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:561)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:450)
+	at org.pentaho.di.core.database.Database.connect(Database.java:364)
+	at org.pentaho.di.core.database.Database.connect(Database.java:335)
+	at org.pentaho.di.core.database.Database.connect(Database.java:325)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:258)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 13:37:30 jdbc[38]: Connection not closed
+java.lang.Exception: Stack Trace
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:121)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:58)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.pentaho.di.core.database.Database.connectUsingClass(Database.java:561)
+	at org.pentaho.di.core.database.Database.normalConnect(Database.java:450)
+	at org.pentaho.di.core.database.Database.connect(Database.java:364)
+	at org.pentaho.di.core.database.Database.connect(Database.java:335)
+	at org.pentaho.di.core.database.Database.connect(Database.java:325)
+	at org.pentaho.di.trans.steps.dynamicsqlrow.DynamicSQLRowMeta.getFields(DynamicSQLRowMeta.java:258)
+	at org.pentaho.di.trans.TransMeta.getThisStepFields(TransMeta.java:2036)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1865)
+	at org.pentaho.di.trans.TransMeta.getStepFields(TransMeta.java:1765)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputFields(StepAnalyzer.java:567)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.getOutputRowMetaInterfaces(StepAnalyzer.java:473)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.processOutputs(StepAnalyzer.java:307)
+	at org.pentaho.metaverse.api.analyzer.kettle.step.StepAnalyzer.analyze(StepAnalyzer.java:135)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:204)
+	at org.pentaho.metaverse.analyzer.kettle.TransformationAnalyzer.analyze(TransformationAnalyzer.java:62)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at Proxy38931292_5e02_45fe_9b7e_75d5eef13221.analyze(Unknown Source)
+	at org.pentaho.metaverse.util.MetaverseUtil$1.run(MetaverseUtil.java:209)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+12-06 15:12:09 jdbc[58]: SQLException
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO AAA (DESCRIPTION, CODE, CATEGORY, PRICE) VALUES ( ?,  ?,  ?,  ?) [90006-131]

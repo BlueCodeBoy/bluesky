@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>bluesky-pentaho-kettle</artifactId>
+        <groupId>com.bluesky.etl.spark</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bluesky.etl.spark</groupId>
+    <artifactId>ui-swt</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.bluesky.etl.spark</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>batik-js</artifactId>
+                    <groupId>org.apache.xmlgraphics</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.bluesky.elipse-runtime</groupId>
+            <artifactId>elipse-runtime</artifactId>
+            <version>3.1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/../lib/org.eclipse.core.runtime-3.1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.bluesky.pentaho-capability-manager</groupId>
+            <artifactId>pentaho-capability-manager</artifactId>
+            <version>6.1.0.1-196</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/../lib/pentaho-capability-manager-6.1.0.1-196.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.bluesky.jface</groupId>
+            <artifactId>jface</artifactId>
+            <version>3.3.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/../lib/jface-3.3.0-I20070606-0010.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.equinox</groupId>
+            <artifactId>common</artifactId>
+            <version>3.3.0-v20070426</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.bluesky.etl.spark</groupId>
+            <artifactId>engine</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bluesky.etl.spark</groupId>
+            <artifactId>dbdialog</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>
+            activiti-study
+        </finalName>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/java</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
+
+    </build>
+
+</project>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<steps>
+  <step id="FilterRows">
+        <description>i18n:org.pentaho.di.trans.step:BaseStep.TypeLongDesc.FilterRows</description>
+        <classname>org.pentaho.di.trans.steps.filterrows.FilterRowsMeta</classname>
+        <category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Utility</category>
+        <tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.FilterRows</tooltip>
+        <iconfile>ui/images/FLT.svg</iconfile>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Filter+rows</documentation_url>
+        <cases_url/>
+        <forum_url/>
+    </step>
+      <step id="SelectValues">
+        <description>i18n:org.pentaho.di.trans.step:BaseStep.TypeLongDesc.SelectValues</description>
+        <classname>org.pentaho.di.trans.steps.selectvalues.SelectValuesMeta</classname>
+        <category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Transform</category>
+        <tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.SelectValues</tooltip>
+        <iconfile>ui/images/SEL.svg</iconfile>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Select+Values</documentation_url>
+        <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+        <forum_url>http://forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    </step>
+  <!--转换  -->
+    <step id="SwitchCase">
+        <description>i18n:org.pentaho.di.trans.step:BaseStep.TypeLongDesc.SwitchCase</description>
+        <classname>org.pentaho.di.trans.steps.switchcase.SwitchCaseMeta</classname>
+        <category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Transform</category>
+        <tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.SwitchCase</tooltip>
+        <iconfile>ui/images/SWC.svg</iconfile>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Switch-Case</documentation_url>
+        <cases_url/>
+        <forum_url/>
+    </step>
+
+  <step id="TableOutput">
+        <description>i18n:org.pentaho.di.trans.step:BaseStep.TypeLongDesc.Output</description>
+        <classname>org.pentaho.di.trans.steps.tableoutput.TableOutputMeta</classname>
+        <category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Output</category>
+        <tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.TableOutput</tooltip>
+        <iconfile>ui/images/TOP.svg</iconfile>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Table+Output</documentation_url>
+        <cases_url/>
+        <forum_url/>
+    </step>
+  <step id="Delete">
+        <description>i18n:org.pentaho.di.trans.step:BaseStep.TypeLongDesc.Delete</description>
+        <classname>org.pentaho.di.trans.steps.delete.DeleteMeta</classname>
+        <category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Output</category>
+        <tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.Delete</tooltip>
+        <iconfile>ui/images/Delete.svg</iconfile>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Delete</documentation_url>
+        <cases_url/>
+        <forum_url/>
+    </step>
+  <step id="Update">
+        <description>i18n:org.pentaho.di.trans.step:BaseStep.TypeLongDesc.Update</description>
+        <classname>org.pentaho.di.trans.steps.update.UpdateMeta</classname>
+        <category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Output</category>
+        <tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.Update</tooltip>
+        <iconfile>ui/images/UPD.svg</iconfile>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Update</documentation_url>
+        <cases_url/>
+        <forum_url/>
+    </step>
+
+</steps>

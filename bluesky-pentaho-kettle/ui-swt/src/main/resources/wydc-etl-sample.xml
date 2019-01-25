@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample>
+    <jobs>
+        <job>
+            <name>建立数据库表</name>
+            <file>/sample/jobs/建立数据库表.kjb</file>
+            <desc>作业启动后检测数据库表是否存在，不存在时将进行数据库表创建。</desc>
+        </job>
+        <job>
+            <name>执行步骤作业</name>
+            <file>/sample/jobs/两个步骤作业.kjb</file>
+            <desc>本作业中演示调用步骤操作，分别完成生成记录信息，并保存至文件和数据库两个方式。</desc>
+        </job>
+    </jobs>
+    <trans>
+        <tran>
+            <name>生成记录到数据库</name>
+            <file>/sample/trans/生成记录到数据库.ktr</file>
+            <desc>随机生成100条记录，并将记录数据写入到数据库表中</desc>
+        </tran>
+        <tran>
+            <name>生成记录到文件</name>
+            <file>/sample/trans/生成记录到文件.ktr</file>
+            <desc>随机生成100条记录，将记录数据写入到文件中</desc>
+        </tran>
+        <tran>
+            <name>使用JavaScript产生记录</name>
+            <file>/sample/trans/使用JavaScript产生记录.ktr</file>
+            <desc>使用JavaScript脚本产生产品数据</desc>
+        </tran>
+    </trans>
+</sample>
